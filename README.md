@@ -42,7 +42,6 @@ You do not need the whole project; just grab the backend script for your OS (`ra
 ```
 python3 razer_static.py <colour> [--brightness 0-255]
 python3 razer_static.py --list
-
 ```
 
 | Option | Meaning |
