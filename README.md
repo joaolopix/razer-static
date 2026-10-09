@@ -28,7 +28,7 @@ This project goes the other way:
 - **Nothing resident.** It sets the colour and exits. No service, no tray icon, no autostart.
 - **No network code.** The scripts never open a socket or make any web request, and they don't spawn other programs.
 - **Take only what you need.** You do not need the whole project. Copy just the script(s) for your OS and device (see below).
-- **The colour sticks.** The effect is written with the VARSTORE flag, so most devices keep it in onboard memory after the script exits (the same mechanism OpenRazer and Polychromatic use).
+- **The colour sticks.** The effect is written with the VARSTORE flag, so most devices keep it in onboard memory after the script exits (the same mechanism OpenRazer and Polychromatic use). However, some devices, like headset may not persist on startup, if that is the case make a small .vbs file or equivalent on mac, to run this script on start up and you are golden :)
 
 ## Requirements
 
